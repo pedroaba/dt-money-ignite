@@ -20,7 +20,7 @@ export function Summary () {
         </header>
         <strong>R$ 17.400,00</strong>
       </SummaryCard>
-      <SummaryCard>
+      <SummaryCard variant="green">
         <header>
           <span>Total</span>
 
