@@ -1,15 +1,17 @@
 import { Header } from "../../components/Header";
 import { Summary } from "../../components/Summary";
-import { PriceHighlight, TransectionsContainer, TransectionsTable } from "./styles";
+import { SearchForm } from "./components/SearchForm";
+import { PriceHighlight, TransactionsContainer, TransactionsTable } from "./styles";
 
-export function Transection () {
+export function Transaction () {
   return (
     <div>
       <Header />
       <Summary />
 
-      <TransectionsContainer>
-        <TransectionsTable>
+      <TransactionsContainer>
+        <SearchForm />
+        <TransactionsTable>
           <tbody>
             <tr>
               <td width="50%">Desenvolvimento de site</td>
@@ -32,8 +34,8 @@ export function Transection () {
               <td>10/04/2022</td>
             </tr>
           </tbody>
-        </TransectionsTable>
-      </TransectionsContainer>
+        </TransactionsTable>
+      </TransactionsContainer>
     </div>
   );
 }

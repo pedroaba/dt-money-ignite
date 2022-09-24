@@ -1,11 +1,11 @@
-import styled from "styled-components";
+  import styled from "styled-components";
 
 interface PriceHighlightProps {
   variant: 'income' | 'outcome';
 
 }
 
-export const TransectionsContainer = styled.main`
+export const TransactionsContainer = styled.main`
   width: 100%;
   max-width: 1120px;
   margin: 4rem auto 0;
@@ -13,10 +13,11 @@ export const TransectionsContainer = styled.main`
 
 `;
 
-export const TransectionsTable = styled.table`
+export const TransactionsTable = styled.table`
   width: 100%;
   border-collapse: separate;
   border-spacing: 0 0.5rem;
+  margin-top: 1.5rem;
 
   td {
     padding: 1.25rem 2rem;

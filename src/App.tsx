@@ -1,12 +1,12 @@
 import { ThemeProvider } from "styled-components";
-import { Transection } from "./pages/Transections";
+import { Transaction } from "./pages/Transactions";
 import { GlobalStyle } from "./styles/global";
 import { defaultTheme } from "./styles/themes/default";
 
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <Transection />
+      <Transaction />
       <GlobalStyle />
     </ThemeProvider>
   );

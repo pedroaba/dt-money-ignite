@@ -19,7 +19,7 @@ export const HeaderContent = styled.div`
 
 `;
 
-export const NewTransectionButton = styled.button`
+export const NewTransactionButton = styled.button`
   height: 50px;
   border: 0;
   background: ${props => props.theme["green-500"]};
